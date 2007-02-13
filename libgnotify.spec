@@ -1,5 +1,5 @@
 Summary:	GNotify library
-Summary(pl.UTF-8):   Biblioteka GNotify
+Summary(pl.UTF-8):	Biblioteka GNotify
 Name:		libgnotify
 Version:	1.0
 Release:	1
@@ -21,7 +21,7 @@ Biblioteka GNotify.
 
 %package devel
 Summary:	Header files for GNotify library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki GNotify
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki GNotify
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -33,7 +33,7 @@ Pliki nagłówkowe biblioteki GNotify.
 
 %package static
 Summary:	Static GNotify library
-Summary(pl.UTF-8):   Statyczna biblioteka GNotify
+Summary(pl.UTF-8):	Statyczna biblioteka GNotify
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
